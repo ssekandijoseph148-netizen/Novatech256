@@ -1,0 +1,5 @@
+# Plain static HTML site: no framework, no package manager, no build step.
+# index.html at the repository root is served at "/".
+[build]
+  publish = "."
+  command = ""
